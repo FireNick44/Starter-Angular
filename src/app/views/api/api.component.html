@@ -1,0 +1,14 @@
+<div>
+  ------ <br>
+  <strong>API</strong> <br>
+  <div>
+    <input type="number" [(ngModel)]="postId" min="1" max="100">
+    <button (click)="getPost()">Fetch Post</button>
+    <div *ngIf="post" class="post-details">
+      <h2>Post {{ post.id }}</h2>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.body }}</p>
+    </div>
+  </div>
+  ------ <br>
+</div>
