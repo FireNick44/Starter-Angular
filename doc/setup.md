@@ -11,7 +11,7 @@ npm install -g @angular/cli
 
 
 ```
-ng -version
+ng version
 ```
 
 should provide something like this:
